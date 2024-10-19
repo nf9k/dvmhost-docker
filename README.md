@@ -8,4 +8,4 @@
     CHANGEME_ID - site peer ID (from connectivity plan, ex 311802)
     CHANGEME_LOCATION - site location name (i.e. Indianapolis, IN)
 
-6). docker-compose up -d
+5). docker-compose up -d
