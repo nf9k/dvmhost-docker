@@ -1,7 +1,7 @@
 # dvmhost-docker
-1). git clone https://github.com/nf9k/dvmhost-docker.git
-2). cd ./dvmhost-docker
-3). cp ./config.example.yml ./config.yml
+1). git clone https://github.com/nf9k/dvmhost-docker.git  
+2). cd ./dvmhost-docker  
+3). cp ./config.example.yml ./config.yml  
 4). Edit config.yml as needed:
 
     CHANGEME_IDENTITY - site identity (IN_ + 3-letter designator, ex. IN_IND)
