@@ -1,0 +1,9 @@
+services:
+  dvmhost:
+    image: nf9k/dvmhost:latest
+    container_name: dvmhost
+    restart: unless-stopped
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+    volumes:
+      - ~/docker/dvmhost/config.yml:/opt/dvmhost/config.yml
